@@ -1,6 +1,10 @@
-title: Minimal theme
+title: Homepage of Ziliang Shen
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
+description: Ziliang Shen's personal homepage. I hope you can know a little bit about me through this website. If you are interested in me, welcome to contact me.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+gem "github-pages", group: :jekyll_plugins
